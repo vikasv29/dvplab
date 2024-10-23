@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
-CARS=['KIA','BMW','BENZ','TATA','AUDI','polo']
-Data=[40,20,18,15,10,9]
+CARS=['range rover','benz','tata nexon','venue','duster','bmw']
+data=['50','45','10','20','5','4']
 plt.figure(figsize=(10,7))
-plt.pie(Data,labels=CARS)
-plt.title("Vinay A-1KI23CS182")
+plt.pie(data,labels=CARS)
+plt.title("Vikas-1KI23CS180")
 plt.show()
